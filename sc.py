@@ -72,3 +72,4 @@ class Command(BaseCommand):
             )
             product.save()
             self.stdout.write(self.style.SUCCESS('Product created successfully.'))
+
